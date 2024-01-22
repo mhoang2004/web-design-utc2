@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <span style="color: black;">Mobile</span><span style="color: white;">store</span>
+        </div>
+
+        <div class="nav-item">
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Store</a>
+            <a href="/">Featured</a>
+            <a href="/">Blog</a>
+            <a href="/">Contact</a>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="items">
+            <div class="item">
+                <img src="./image/download.webp" alt="">
+                <p>Product-Name</p>
+            </div>
+            <div class="item">
+                <img src="./image/download.webp" alt="">
+                <p>Product-Name</p>
+            </div>
+            <div class="item">
+                <img src="./image/download.webp" alt="">
+                <p>Product-Name</p>
+            </div>
+            <div class="item">
+                <img src="./image/download.webp" alt="">
+                <p>Product-Name</p>
+            </div>
+        </div>
+
+        <form onsubmit="return validateForm()" class="comment-section" action="">
+            <div class="comment-title">
+                <h4>Comment</h4>
+            </div>
+            <div>
+                <label for="">Email</label><br>
+                <input type="text" name="" id="email">
+            </div>
+            <div>
+                <label for="">Comment</label><br>
+                <textarea name="" id="comment-content" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="">Rating</label>
+                <input type="text" name="" id="rating">
+            </div>
+
+            <button type="submit" id="comment-btn">send</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="/">Home</a> |
+        <a href="/">Support</a> |
+        <a href="/">Account</a> |
+        <a href="/">Store</a> |
+        <a href="/">Contact</a>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

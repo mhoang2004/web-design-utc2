@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.search-by {
+    margin-right: 10px;
+}
+
+.search-by-title {
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+}
+
+.search-by-content {
+    padding: 0 10px 10px;
+    border: 1px solid #999;
+}
+
+.search-by-content div {
+    margin-top: 7px;
+}
+
+.search-by-price input {
+    width: 70px;
+}
+
+#search-by-btn {
+    padding: 5px 20px;
+    background-color: red;
+    color: #fff;
+}
+
+.search-by-advance p {
+    color: red;
+}
+
+#category, #keyword {
+    width: 250px;
+}
+
+#keyword {
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+.item img {
+    width: 100%;
+    /* height: 360px; */
+    object-fit: cover;
+}
+
+.item-detail {
+    position: absolute;
+    bottom: 5px;
+    width: 80%;
+}
+
+.item-detail h4 {
+    background-color: red;
+    color: #fff;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.item-info {
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.item-info-content {
+    text-transform: uppercase;
+}
+
+.item-price {
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer {
+    margin: 50px 0;
+    background-color: rgb(178, 67, 67);
+    padding: 10px;
+    color: gainsboro;
+}
+
+footer a {
+    color: gainsboro;
+}
+

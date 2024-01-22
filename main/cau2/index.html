@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main>
+        <form class="search-by" onsubmit="return validateForm()">
+            <div class="search-by-title">Search by</div>
+
+            <div class="search-by-content">
+                <div>
+                    <label>Keyword</label><br>
+                    <input type="text" name="" id="keyword">
+                </div>
+
+                <div>
+                    <label>Category</label><br>
+                    <select name="" id="category">
+                        <option value="" disabled selected>-- Select category --</option>
+                    </select>
+                </div>
+
+                <div class="search-by-price">
+                    Price
+                    <input type="text" id="min-price">
+                    to
+                    <input type="text" name="" id="max-price">
+                </div>
+
+                <div>
+                    <button id="search-by-btn" type="submit">search</button>
+                </div>
+
+                <div class="search-by-advance">
+                    <p>* Advanced search</p>
+                    <p>* Contact customer support</p>
+                </div>
+            </div>
+        </form>
+
+        <div class="items">
+            <div class="item">
+                <img src="./image/download.jpg" alt="">
+
+                <div class="item-detail">
+                    <h4>Lorem ipsum</h4>
+
+                    <div class="item-info">
+                        <p>Woment</p>
+                        <p class="item-info-content">Lorem ipsum</p>
+                        <p class="item-info-content">Dolor sit amet</p>
+                        <p class="item-price">$58.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./image/download.jpg" alt="">
+
+                <div class="item-detail">
+                    <h4>Lorem ipsum</h4>
+
+                    <div class="item-info">
+                        <p>Woment</p>
+                        <p class="item-info-content">Lorem ipsum</p>
+                        <p class="item-info-content">Dolor sit amet</p>
+                        <p class="item-price">$58.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./image/download.jpg" alt="">
+
+                <div class="item-detail">
+                    <h4>Lorem ipsum</h4>
+
+                    <div class="item-info">
+                        <p>Woment</p>
+                        <p class="item-info-content">Lorem ipsum</p>
+                        <p class="item-info-content">Dolor sit amet</p>
+                        <p class="item-price">$58.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <a href="/">Home</a> |
+        <a href="/">Support</a> |
+        <a href="/">Account</a> |
+        <a href="/">Store</a> |
+        <a href="/">Contact</a>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,14 @@
+Các em ôn web các nội dung như sau nhé: 
+chia bố cục cho web( tham khảo các web bán hàng), 
+tạo menu, 
+các ngoại lệ nhập (email đúng định dạng, nhập số, not null,... tập trung mấy cái cô đã dạy và cho làm trên lớp), 
+kỹ thuật seo web ( đọc qua lý thuyết), 
+trang trí cho web
+
+
+---------------------------------------------------
+- thay đổi màu chữ, màu nền, đường viền cho các input trong form search
+- validate bỏ trống
+- validate phải là số
+- responsive
+- áp dụng kĩ thuật SEO

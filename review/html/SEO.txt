@@ -1,0 +1,6 @@
+<title> tag, <meta description> tag, 
+descriptive image filenames
+Add alt text to images using the <img>,
+reponsive website (google ranking mobile-friendliness)
+use <h1>, <h2>, p,.. tags 
+sharing button

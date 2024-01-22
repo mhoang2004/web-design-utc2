@@ -1,0 +1,124 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20;
+}
+
+nav a {
+    padding: 0 20px;
+    border-left: 1px solid #999;
+}
+
+nav a:hover {
+    color: green;
+    font-weight: 600;
+}
+
+nav a:first-child {
+    color: rgb(219, 20, 53);
+}
+
+nav a:first-child span {
+    color: #000;
+}
+
+nav a:last-child {
+    border-left: none;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.search-section label {
+    padding: 5px 10px;
+    color: #000;
+    background-color: green;
+    border-radius: 3px;
+}
+
+.search-section input {
+    width: 250px;
+    margin-right: 3px;
+    border-color: #999;
+    outline: none;
+    border-radius: 3px;
+    /* border: none; */
+}
+
+.items {
+    gap: 20px;
+    display: flex;
+    margin: 20px;
+    width: 100%;
+}
+
+.item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+.comment-section {
+    margin: 20px;
+    width: 30%;
+}
+
+.comment-title {
+    margin-bottom: 15px;
+}
+
+#comment-btn {
+    margin-top: 10px;
+    padding: 5px 25px;
+    color: #000;
+    background-color: green;
+}
+
+#email {
+    width: 80%;
+}
+
+#rating {
+    width: 60px;
+}
+
+#comment-content {
+    width: 80%;
+}
+
+footer {
+    padding: 20px;
+    color: gray;   
+
+}
+footer a {
+    color: gray;   
+}

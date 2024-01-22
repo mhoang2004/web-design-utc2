@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+
+}
+
+.category {
+    margin: 10px;
+    min-width: 250px;
+    border: 1px solid #999;
+    height: 100%;
+}
+
+.category-title {
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.category-items .item:hover {
+    color: red;
+    font-weight: 600;
+}
+
+.category-items .item {
+    border-top: 1px dashed #999;
+    padding: 10px 0;
+    width: 95%;
+    margin: auto;
+    color: #888;
+    cursor: pointer;
+}
+
+.category-items .item:nth-child(1) {
+    border-top: none;
+}
+
+.category-items .item img {
+    width: 15px;
+
+}
+
+#banner {
+    width: 100%;
+    height: 321px;
+    margin-top: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.search-by {
+    margin: 10px;
+    max-width: 250px;
+}
+
+.search-by-title {
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+}
+
+.search-by-content {
+    padding: 0 10px 10px;
+    border: 1px solid #999;
+}
+
+.search-by-content div {
+    margin-top: 7px;
+}
+
+.search-by-price input {
+    width: 70px;
+}
+
+#search-by-btn {
+    padding: 5px 20px;
+    background-color: red;
+    color: #fff;
+}
+
+.search-by-advance p {
+    color: red;
+}
+
+#category, #keyword {
+    width: 230px;
+}
+
+#keyword {
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-detail {
+    position: absolute;
+    bottom: 5px;
+    width: 80%;
+}
+
+.item-detail h4 {
+    background-color: red;
+    color: #fff;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.item-info {
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.item-info-content {
+    text-transform: uppercase;
+}
+
+.item-price {
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer {
+    margin: 50px 0;
+    background-color: rgb(178, 67, 67);
+    padding: 10px;
+    color: gainsboro;
+}
+
+footer a {
+    color: gainsboro;
+}

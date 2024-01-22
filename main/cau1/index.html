@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <a id="logo" href="/">SHOP AROUND</a>
+
+        <div class="nav-items">
+            <a href="">Home</a>
+            <a href="">Support</a>
+            <a href="">Account</a>
+            <a href="">Store</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="search-by">
+            <div class="search-by-title">
+                Search by
+            </div>
+            <form class="search-by-content" onsubmit="return validateForm()">
+                <div class="search-by-keyword">
+                    <label for="keyword">Keyword</label><br>
+                    <input type="text" name="keyword" id="keyword">
+                </div>
+
+                <div class="search-by-category">
+                    <label for="category">Category</label>
+                    <br>
+                    <select name="category" id="">
+                        <option value="" disabled selected>--Select category--</option>
+                    </select>
+                </div>
+
+                <div class="search-by-price">
+                    Price
+                    <input style="width: 50px;" type="text" name="" id="min-price">
+                    to
+                    <input style="width: 50px;" type="text" name="" id="max-price">
+                </div>
+
+                <button id="search-by-btn" type="submit">search</button>
+
+                <ul>
+                    <li>* Advanced search</li>
+                    <li>* Contact customer support</li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="banner">
+            <img id="" src="./image/slide1.jpg" alt="">
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="/">Home</a> |
+        <a href="/">Support</a> |
+        <a href="/">Account</a> |
+        <a href="/">Store</a> |
+        <a href="/">Contact</a>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
